@@ -1197,9 +1197,10 @@ footer .privacy-policy{
     }
 
     .section-services .radios .labels p {
-        font-size: 13px;
-        width: 94px;
-        height: 30px;
+        font-size: 14px;
+        width: 100%;
+        height: 40px;
+        padding: 0 10%;
     }
 }
 
@@ -1213,9 +1214,12 @@ footer .privacy-policy{
     }
 
     .section-services .radios .labels p {
-        font-size: 10px;
-        width: 80px;
-        height: 20px;
+        font-size: 11px;
+        height: 30px;
+    }
+
+    .section-services .radios .labels {
+        flex-wrap: wrap;
     }
 }
 
